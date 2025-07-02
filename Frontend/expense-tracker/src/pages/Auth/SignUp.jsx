@@ -16,7 +16,7 @@ const SignUp = () => {
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    // Validation logic
+    
     if (!fullName.trim()) {
       setError("Full name is required");
       return;
@@ -33,7 +33,7 @@ const SignUp = () => {
       setError("Passwords do not match");
       return;
     }
-    // Your signup logic here
+   
   };
 
   return (
